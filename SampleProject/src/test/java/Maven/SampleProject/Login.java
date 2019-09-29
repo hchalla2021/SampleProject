@@ -12,7 +12,7 @@ public class Login {
 	
 	public static String Username = "mngr214036";
 	public static String Password = "AzYjese";
-//Hello shashi..
+//Hello shashi.
 @Test	
 public void Login123() throws InterruptedException {
 
