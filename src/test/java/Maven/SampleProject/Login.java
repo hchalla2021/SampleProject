@@ -15,8 +15,9 @@ public class Login {
 //Hello shashi.
 @Test	
 public void Login123() throws InterruptedException {
-
-			System.setProperty("webdriver.chrome.driver", "D:\\Selenium\\chromedriver_win32\\chromedriver.exe");
+                   String path = System.getProperty("user.dir");
+                      System.out.println(path); 
+                     System.setProperty("webdriver.chrome.driver",path+"\\chromedriver.exe");
 			
 			WebDriver driver = new ChromeDriver();
 			
